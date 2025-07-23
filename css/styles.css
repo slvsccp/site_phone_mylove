@@ -1,0 +1,13 @@
+.heart {
+  position: absolute;
+  top: -50px; /* Começa acima da tela */
+  font-size: 24px; /* Tamanho do coração */
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh); /* Move para baixo da tela */
+    opacity: 0; /* Desaparece */
+  }
+}
